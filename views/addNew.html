@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Book</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../insert.js" type="module"></script>
+</head>
+<body>
+    <div class="container m-2 p-2">
+        <form id="bookInsert">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name"  placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="IsbnNumber">IsbnNumber</label>
+                <input type="text" class="form-control" id="IsbnNumber" placeholder="Enter IsbnNumber">
+            </div>
+            <div class="form-group">
+                <label for="UnitsSold">UnitsSold</label>
+                <input type="number" class="form-control" id="UnitsSold" placeholder="Enter sold units">
+            </div>
+            <div class="form-group">
+                <label for="authorSelect">Select an author</label>
+                <select class="form-control" name="authorSelect" id="authorSelect"></select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
